@@ -1,4 +1,4 @@
-public class Auto {
+public class Auto { // todo Ueberlegung zu dem Klassenname. Fahrzeug als abstrakte Klasse definieren. Eine neue Auto-Klasse und die bestehende Lkw-Klasse extenden Fahrzeug
     private String Kennzeichen; // todo convention variablen klein Kennzeichen -> kennzeichen
     private String Marke;
     private String Farbe;
@@ -22,6 +22,8 @@ public class Auto {
 
     public Auto() {
     }
+
+    // todo brauchen wir hier die setter? wir koennen alles ueber den Konstruktor initialisieren und manipulieren die Felder nicht mehr danach.
 
     public void setKennzeichen(String kennzeichen) {
         Kennzeichen = kennzeichen;
