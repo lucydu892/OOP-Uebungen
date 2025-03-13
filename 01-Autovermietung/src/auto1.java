@@ -1,4 +1,4 @@
-public class auto1 {
+public class auto1 { // todo convention Klassen gross auto1 -> Auto1
     public static void main(String[] args) {
 
         Auto a1 = new Auto("GI-JP 111", "Renault", "rot", 6.2F, 90, 32500, 60, 32);
