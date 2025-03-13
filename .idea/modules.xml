@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/01-Autovermietung/01-Autovermietung.iml" filepath="$PROJECT_DIR$/01-Autovermietung/01-Autovermietung.iml" />
+      <module fileurl="file://$PROJECT_DIR$/02-Kassenumsaetze/02-Kassenumsaetze.iml" filepath="$PROJECT_DIR$/02-Kassenumsaetze/02-Kassenumsaetze.iml" />
+      <module fileurl="file://$PROJECT_DIR$/03-Firmenumsatz/03-Firmenumsatz.iml" filepath="$PROJECT_DIR$/03-Firmenumsatz/03-Firmenumsatz.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Anwendungsfälle.iml" filepath="$PROJECT_DIR$/.idea/Anwendungsfälle.iml" />
+    </modules>
+  </component>
+</project>
