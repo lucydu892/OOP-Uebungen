@@ -1,9 +1,18 @@
-public class Produkte {
+public class Produkt {
 
     private String bezeichnung;
     private double preis;
     private int verkaufsmenge;
 
+    public Produkt(String name, double price, int amount) {
+        this.bezeichnung = name;
+        this.preis = price;
+        this.verkaufsmenge = amount;
+    }
+
+    public String produktAnzeige(){
+        return bezeichnung + ": Preis " + preis + "€, Verkaufsmenge " + verkaufsmenge;
+    }
     public String getBezeichnung() {
         return bezeichnung;
     }
@@ -24,6 +33,7 @@ public class Produkte {
     }
 
     public void setVerkaufsmenge(int verkaufsmenge) {
-
+        this.verkaufsmenge = verkaufsmenge;
     }
+
 }
