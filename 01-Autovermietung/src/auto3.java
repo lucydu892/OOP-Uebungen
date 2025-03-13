@@ -22,12 +22,12 @@ public class auto3 {
         int anzahlTage = scanner.nextInt();
         k1.buchen(1, ausgewaehlteKennzeichen,anzahlTage);
         System.out.println("\nIhre Buchung: \n " + "Kundennummer: " + k1.getKundenNr() + "\nName: " + k1.getKundenVorname() + " " + k1.getKundenNachame());
-        System.out.println(k1.getMeineBuchung().getGebuchtKennzeichen() + " " + k1.getMeineBuchung().getDauer() + " Tage");
+        System.out.println(k1.getMeineBuchung().getGebuchtKennzeichen() + " " + k1.getMeineBuchung().getDauer() + " Tage"); // todo hier bekommst du einen Nullpointer. Kannst du mir sagen warum?
     }
-    static boolean checkKennzeichen(String ausgewaelhteKennzeichen) {
+    static boolean checkKennzeichen(String ausgewaelhteKennzeichen) { // TODO die checkKennzeichen Methode wird noch nicht verwendet.
         boolean status = false;
         String input = ausgewaelhteKennzeichen.toLowerCase();
-        if (input == "GI-JP 111" && input == "GI-VH-200"){
+        if (input == "GI-JP 111" && input == "GI-VH-200"){ // todo kannst du pruefen ob der input "GI-JP 111" ist UND der gleiche Input "GI-VH-200" ist?
             status = true;
         } else {
             System.out.println("Ihre Eingabe stimmt nicht überein oder hat ein Schreibfehler.");

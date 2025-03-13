@@ -1,5 +1,5 @@
 public class Auto {
-    private String Kennzeichen;
+    private String Kennzeichen; // todo convention variablen klein Kennzeichen -> kennzeichen
     private String Marke;
     private String Farbe;
     private float Verbrauch;
@@ -7,6 +7,7 @@ public class Auto {
     private int kmStand;
     private double maxTankinhalt;
     private double aktTankinhalte;
+    // todo mietsatz? (Aufgabe 1 Teil A: Schritt 2)
 
     public Auto(String sign, String brand, String color, float drain, float kw, int kmStatus, double maxTank, double aktTank) {
         this.Kennzeichen = sign;
@@ -84,6 +85,7 @@ public class Auto {
     public double getAktTankinhalte() {
         return aktTankinhalte;
     }
+
     public void ausgabe() {
         System.out.println("Kennzeichen: "+this.Kennzeichen);
         System.out.println("Marke: "+this.Marke);

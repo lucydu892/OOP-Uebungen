@@ -33,7 +33,7 @@ public class Kunde {
         return kundenNr;
     }
     public void buchen(int buchungsNr,String kennzeichen, int mietDauer){
-        Buchung b1 = new Buchung(buchungsNr,kennzeichen,mietDauer);
+        Buchung b1 = new Buchung(buchungsNr,kennzeichen,mietDauer); // todo was passiert hier?
     }
 
     public void setMeineBuchung(Buchung meineBuchung) {
