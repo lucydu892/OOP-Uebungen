@@ -8,7 +8,7 @@ public class umsatz1 {
         //Initialize Produkt
         Produkt p1 = new Produkt("Saphir",20000,150);
         Produkt p2 = new Produkt("Smaragd",16500,220);
-        Produkt p3 = new Produkt("Mammut",80000,30);
+        Produkt p3 = new Produkt("Mammut",80000,30); // todo Mammut sollte von der Klasse Lkw sein. Welche sich von Produkt ableitet: Lkw extends Produkt und Zuladung sollte als Feld hinzugefuegt werden
         //Initialize Werk
         Werk w1 = new Werk("Dortmund", p1);
         Werk w2 = new Werk("Essen", p2);

@@ -1,6 +1,6 @@
 public class Werk {
     private String standort;
-    private Produkt meinProdukte;
+    private Produkt meinProdukte; // tod meinProdukt
     private double werksUmsatz;
 
     public Werk(String location, Produkt produkt){

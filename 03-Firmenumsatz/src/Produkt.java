@@ -10,6 +10,7 @@ public class Produkt {
         this.verkaufsmenge = amount;
     }
 
+    // todo finde ich gut geloest mit der Methode produktAnzeige(). Kannst du das auch mit der toString-Methode loesen?
     public String produktAnzeige(){
         return "\t-" + bezeichnung + ": Preis " + preis + "€, Verkaufsmenge " + verkaufsmenge;
     }
