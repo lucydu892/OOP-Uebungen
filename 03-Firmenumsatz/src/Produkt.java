@@ -11,7 +11,7 @@ public class Produkt {
     }
 
     public String produktAnzeige(){
-        return bezeichnung + ": Preis " + preis + "€, Verkaufsmenge " + verkaufsmenge;
+        return "\t-" + bezeichnung + ": Preis " + preis + "€, Verkaufsmenge " + verkaufsmenge;
     }
     public String getBezeichnung() {
         return bezeichnung;

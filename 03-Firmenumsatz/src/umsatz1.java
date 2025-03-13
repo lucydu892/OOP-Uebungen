@@ -1,6 +1,10 @@
 public class umsatz1 {
     public static void main(String[] args) {
 
+        //Titel
+        System.out.println("\n----------------------------------------");
+        System.out.println("Firmenumsatz");
+        System.out.println("----------------------------------------\n");
         //Initialize Produkt
         Produkt p1 = new Produkt("Saphir",20000,150);
         Produkt p2 = new Produkt("Smaragd",16500,220);
@@ -16,14 +20,16 @@ public class umsatz1 {
         //Calculate FirmenUmsatz
         int firmenUmsatz = (int) (w1.getWerksUmsatz() + w2.getWerksUmsatz() + w3.getWerksUmsatz());
         //Print products
+        System.out.println("Produkte:\n");
         System.out.println(p1.produktAnzeige());
         System.out.println(p2.produktAnzeige());
         System.out.println(p3.produktAnzeige());
         //Print FirmenUmsatz
+        System.out.println("\nFirmenumsatz\n");
         System.out.println(w1.umsatzAnzeige());
         System.out.println(w2.umsatzAnzeige());
         System.out.println(w3.umsatzAnzeige());
 
-        System.out.println("Gesamt");
+        System.out.println("\nGesamtumsatz der Firma OPAL " + firmenUmsatz + " Euro");
     }
 }
