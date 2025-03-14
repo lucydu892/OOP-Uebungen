@@ -1,4 +1,4 @@
-public class Tier {
+public abstract class Tier {
     private String name;
     private int alter;
 
@@ -18,7 +18,7 @@ public class Tier {
         this.alter = alter;
     }
 
-    public void gibLaut(){}
+    public abstract String gibLaut();
 
     public void zeigeInfo(int alter,String name){
         System.out.println(alter + name);

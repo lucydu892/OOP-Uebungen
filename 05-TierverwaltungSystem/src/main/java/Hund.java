@@ -1,7 +1,7 @@
 public class Hund extends Saeugetier {
     @Override
-    public void gibLaut() {
-        System.out.println("Wuff!");
+    public String gibLaut() {
+        return "Wuff!";
     }
 
     @Override

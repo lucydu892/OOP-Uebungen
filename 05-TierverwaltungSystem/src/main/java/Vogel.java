@@ -4,5 +4,5 @@ abstract class Vogel extends Tier {
         System.out.println("Ich kann fliegen!");
     }
 
-    public abstract void gibLaut();
+    public abstract String gibLaut();
 }
