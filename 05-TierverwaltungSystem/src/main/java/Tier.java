@@ -1,27 +1,19 @@
+import lombok.Getter;
+import lombok.Setter;
+import lombok.ToString;
+
+@Getter
+@Setter
+@ToString
 public abstract class Tier {
     private String name;
     private int alter;
 
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public int getAlter() {
-        return alter;
-    }
-
-    public void setAlter(int alter) {
-        this.alter = alter;
-    }
 
     public abstract String gibLaut();
 
-    public void zeigeInfo(int alter,String name){
-        System.out.println(alter + name);
+    public void zeigeInfo(int alter, String name) {
+        System.out.println(alter + " " + name);
     }
 
 }
