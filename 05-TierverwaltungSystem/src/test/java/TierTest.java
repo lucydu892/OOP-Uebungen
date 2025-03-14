@@ -15,5 +15,28 @@ public class TierTest {
         // then
         Assertions.assertEquals("Squawk", gibLautResult);
     }
+    @Test
+    public void hund_merkmalSaeugetier_test() {
+
+        //given
+        Hund testee = new Hund();
+
+        //when
+        String merkmalSaeugetierResult = testee.saeugtierMerkmal();
+
+        //then
+        Assertions.assertEquals("Ich bin ein Säugetier!",merkmalSaeugetierResult);
+    }
+    @Test
+    public void katze_kannFauchen_test() {
+
+        //given
+        Katze testee = new Katze();
+
+        //when
+        String kannFauchenResult = testee.kannFauchen();
+        //then
+        Assertions.assertEquals("Fauch!",kannFauchenResult);
+    }
 }
 

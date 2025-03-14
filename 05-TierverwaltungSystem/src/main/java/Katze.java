@@ -8,4 +8,8 @@ public class Katze extends Saeugetier{
     public void streicheln() {
 
     }
+
+    public String kannFauchen() {
+        return "Fauch!";
+    }
 }
